@@ -40,12 +40,14 @@ Wire your physical or simulated components to the Arduino Uno exactly as defined
 * **Alarm Response:** The 1000Hz speaker tone sounds and the LED strobes unless overridden by the mute button.
 
 ---
+## Diagram
+
+  <img width="707" height="556" alt="image" src="https://github.com/user-attachments/assets/89364f21-43b0-45e1-be1a-36d0c339bec1" />
 
 ## 💻 Source Code
 
 ```cpp
-#include <DHT.h>                                                                               <img width="707" height="556" alt="image" src="https://github.com/user-attachments/assets/256d1d86-f1f5-490a-9421-6accc13e90a8" />
-
+#include <DHT.h>                                                                               
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
